@@ -14,6 +14,7 @@ Python 3.x
 requests library
 
 Install the required libraries:
+
 pip install requests
 
 The initial URL to start crawling from is set to "https://www.google.com" by default. You can change this in the main() function.
