@@ -3,9 +3,13 @@ A simple multithreaded web crawler that visits URLs, extracts links from the pag
 **Features**
 
 Multithreading: Uses multiple threads to visit URLs concurrently.
+
 Queue Management: Maintains a queue of URLs to visit and a set of visited URLs to avoid revisiting.
+
 Data Persistence: Saves visited URLs to a file to allow resumption of the crawling process.
+
 Link Extraction: Extracts all hyperlinks from visited pages.
+
 CSV Logging: Logs all visited URLs to a CSV file.
 
 **Requirements**
@@ -30,6 +34,7 @@ urls_to_visit: Queue to keep track of URLs to visit.
 csv_file_name: Name of the CSV file where the crawled data will be saved.
 
 **Functions**
+
 get_html(url): Retrieves the HTML content of a page.
 
 get_links(html): Extracts all links from the HTML content of a page.
